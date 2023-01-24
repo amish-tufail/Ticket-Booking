@@ -11,6 +11,9 @@
 		EEB15F75298034BA0082C388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F74298034BA0082C388 /* ContentView.swift */; };
 		EEB15F77298034BB0082C388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB15F76298034BB0082C388 /* Assets.xcassets */; };
 		EEB15F7B298034BB0082C388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB15F7A298034BB0082C388 /* Preview Assets.xcassets */; };
+		EEB15F85298035240082C388 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F82298035240082C388 /* PosterData.swift */; };
+		EEB15F86298035240082C388 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F83298035240082C388 /* TabData.swift */; };
+		EEB15F87298035240082C388 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F84298035240082C388 /* TicketData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		EEB15F76298034BB0082C388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEB15F78298034BB0082C388 /* Ticket_Booking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ticket_Booking.entitlements; sourceTree = "<group>"; };
 		EEB15F7A298034BB0082C388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB15F82298035240082C388 /* PosterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		EEB15F83298035240082C388 /* TabData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		EEB15F84298035240082C388 /* TicketData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,9 @@
 		EEB15F71298034BA0082C388 /* Ticket Booking */ = {
 			isa = PBXGroup;
 			children = (
-				EEB15F72298034BA0082C388 /* Ticket_BookingApp.swift */,
-				EEB15F74298034BA0082C388 /* ContentView.swift */,
+				EEB15F882980353C0082C388 /* App */,
+				EEB15F89298035430082C388 /* Views */,
+				EEB15F81298035060082C388 /* Data */,
 				EEB15F76298034BB0082C388 /* Assets.xcassets */,
 				EEB15F78298034BB0082C388 /* Ticket_Booking.entitlements */,
 				EEB15F79298034BB0082C388 /* Preview Content */,
@@ -67,6 +74,32 @@
 				EEB15F7A298034BB0082C388 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB15F81298035060082C388 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15F82298035240082C388 /* PosterData.swift */,
+				EEB15F83298035240082C388 /* TabData.swift */,
+				EEB15F84298035240082C388 /* TicketData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EEB15F882980353C0082C388 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15F72298034BA0082C388 /* Ticket_BookingApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EEB15F89298035430082C388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15F74298034BA0082C388 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB15F75298034BA0082C388 /* ContentView.swift in Sources */,
+				EEB15F86298035240082C388 /* TabData.swift in Sources */,
 				EEB15F73298034BA0082C388 /* Ticket_BookingApp.swift in Sources */,
+				EEB15F85298035240082C388 /* PosterData.swift in Sources */,
+				EEB15F87298035240082C388 /* TicketData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
