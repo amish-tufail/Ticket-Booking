@@ -14,6 +14,24 @@
 		EEB15F85298035240082C388 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F82298035240082C388 /* PosterData.swift */; };
 		EEB15F86298035240082C388 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F83298035240082C388 /* TabData.swift */; };
 		EEB15F87298035240082C388 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F84298035240082C388 /* TicketData.swift */; };
+		EEB15F8B2980364D0082C388 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F8A2980364D0082C388 /* TicketView.swift */; };
+		EEB15F922980381C0082C388 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F8D2980381C0082C388 /* DateButton.swift */; };
+		EEB15F932980381C0082C388 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F8E2980381C0082C388 /* RoundButton.swift */; };
+		EEB15F942980381C0082C388 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F8F2980381C0082C388 /* LargeButton.swift */; };
+		EEB15F952980381C0082C388 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F902980381C0082C388 /* CircleButton.swift */; };
+		EEB15F962980381C0082C388 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F912980381C0082C388 /* TimeButton.swift */; };
+		EEB15F98298038380082C388 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F97298038380082C388 /* utils.swift */; };
+		EEB15F9F298038800082C388 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F9A298038800082C388 /* StatusUI.swift */; };
+		EEB15FA0298038800082C388 /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F9B298038800082C388 /* ScrollSection.swift */; };
+		EEB15FA2298038800082C388 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F9D298038800082C388 /* CustomSearchBar.swift */; };
+		EEB15FA3298038800082C388 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15F9E298038800082C388 /* CircleBackground.swift */; };
+		EEB15FA629803B1A0082C388 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15FA529803B1A0082C388 /* Ticket.swift */; };
+		EEB15FA9298040660082C388 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15FA8298040660082C388 /* Tickets.swift */; };
+		EEB15FAB29804C2C0082C388 /* InfiniteStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15FAA29804C2C0082C388 /* InfiniteStackView.swift */; };
+		EEB15FAD29804F680082C388 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15FAC29804F680082C388 /* CustomTabBar.swift */; };
+		EEB15FAF298056A00082C388 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB15FAE298056A00082C388 /* HomeView.swift */; };
+		EEF1A1D029805D5300B0199A /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1CF29805D5300B0199A /* BookingView.swift */; };
+		EEF1A1D2298063C700B0199A /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1A1D1298063C700B0199A /* SeatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,24 @@
 		EEB15F82298035240082C388 /* PosterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
 		EEB15F83298035240082C388 /* TabData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		EEB15F84298035240082C388 /* TicketData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		EEB15F8A2980364D0082C388 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		EEB15F8D2980381C0082C388 /* DateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		EEB15F8E2980381C0082C388 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		EEB15F8F2980381C0082C388 /* LargeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		EEB15F902980381C0082C388 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		EEB15F912980381C0082C388 /* TimeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		EEB15F97298038380082C388 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		EEB15F9A298038800082C388 /* StatusUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		EEB15F9B298038800082C388 /* ScrollSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		EEB15F9D298038800082C388 /* CustomSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		EEB15F9E298038800082C388 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		EEB15FA529803B1A0082C388 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		EEB15FA8298040660082C388 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		EEB15FAA29804C2C0082C388 /* InfiniteStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteStackView.swift; sourceTree = "<group>"; };
+		EEB15FAC29804F680082C388 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		EEB15FAE298056A00082C388 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEF1A1CF29805D5300B0199A /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		EEF1A1D1298063C700B0199A /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +96,12 @@
 			children = (
 				EEB15F882980353C0082C388 /* App */,
 				EEB15F89298035430082C388 /* Views */,
+				EEB15FA429803B0E0082C388 /* Cards */,
+				EEB15F99298038760082C388 /* UI */,
+				EEB15F8C298038070082C388 /* Buttons */,
 				EEB15F81298035060082C388 /* Data */,
 				EEB15F76298034BB0082C388 /* Assets.xcassets */,
+				EEB15FA729803DF40082C388 /* Helper */,
 				EEB15F78298034BB0082C388 /* Ticket_Booking.entitlements */,
 				EEB15F79298034BB0082C388 /* Preview Content */,
 			);
@@ -98,8 +138,54 @@
 			isa = PBXGroup;
 			children = (
 				EEB15F74298034BA0082C388 /* ContentView.swift */,
+				EEB15F8A2980364D0082C388 /* TicketView.swift */,
+				EEB15FAE298056A00082C388 /* HomeView.swift */,
+				EEF1A1CF29805D5300B0199A /* BookingView.swift */,
+				EEF1A1D1298063C700B0199A /* SeatsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EEB15F8C298038070082C388 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15F902980381C0082C388 /* CircleButton.swift */,
+				EEB15F8D2980381C0082C388 /* DateButton.swift */,
+				EEB15F8F2980381C0082C388 /* LargeButton.swift */,
+				EEB15F8E2980381C0082C388 /* RoundButton.swift */,
+				EEB15F912980381C0082C388 /* TimeButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		EEB15F99298038760082C388 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15F9E298038800082C388 /* CircleBackground.swift */,
+				EEB15F9D298038800082C388 /* CustomSearchBar.swift */,
+				EEB15F9B298038800082C388 /* ScrollSection.swift */,
+				EEB15F9A298038800082C388 /* StatusUI.swift */,
+				EEB15FAC29804F680082C388 /* CustomTabBar.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EEB15FA429803B0E0082C388 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15FA529803B1A0082C388 /* Ticket.swift */,
+				EEB15FA8298040660082C388 /* Tickets.swift */,
+				EEB15FAA29804C2C0082C388 /* InfiniteStackView.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		EEB15FA729803DF40082C388 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EEB15F97298038380082C388 /* utils.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,11 +258,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB15F932980381C0082C388 /* RoundButton.swift in Sources */,
+				EEB15FA9298040660082C388 /* Tickets.swift in Sources */,
+				EEB15F8B2980364D0082C388 /* TicketView.swift in Sources */,
+				EEB15F922980381C0082C388 /* DateButton.swift in Sources */,
+				EEB15FAB29804C2C0082C388 /* InfiniteStackView.swift in Sources */,
+				EEB15F98298038380082C388 /* utils.swift in Sources */,
 				EEB15F75298034BA0082C388 /* ContentView.swift in Sources */,
+				EEB15FA2298038800082C388 /* CustomSearchBar.swift in Sources */,
+				EEB15F962980381C0082C388 /* TimeButton.swift in Sources */,
+				EEB15FA0298038800082C388 /* ScrollSection.swift in Sources */,
 				EEB15F86298035240082C388 /* TabData.swift in Sources */,
+				EEB15F9F298038800082C388 /* StatusUI.swift in Sources */,
+				EEB15F952980381C0082C388 /* CircleButton.swift in Sources */,
+				EEB15FA3298038800082C388 /* CircleBackground.swift in Sources */,
+				EEB15FA629803B1A0082C388 /* Ticket.swift in Sources */,
+				EEB15FAF298056A00082C388 /* HomeView.swift in Sources */,
 				EEB15F73298034BA0082C388 /* Ticket_BookingApp.swift in Sources */,
+				EEB15FAD29804F680082C388 /* CustomTabBar.swift in Sources */,
 				EEB15F85298035240082C388 /* PosterData.swift in Sources */,
+				EEF1A1D2298063C700B0199A /* SeatsView.swift in Sources */,
 				EEB15F87298035240082C388 /* TicketData.swift in Sources */,
+				EEF1A1D029805D5300B0199A /* BookingView.swift in Sources */,
+				EEB15F942980381C0082C388 /* LargeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

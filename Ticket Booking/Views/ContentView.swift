@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var currentTab: Tab = .home
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationView {
+            VStack(spacing: 0.0) {
+                TabView(selection: $currentTab) {
+                   HomeView()
+                        .tag(Tab.home)
+                    Text("Location")
+                        .tag(Tab.location)
+                    TicketView()
+                        .tag(Tab.ticket)
+                    Text("Category")
+                        .tag(Tab.category)
+                    Text("Profile")
+                        .tag(Tab.profile)
+                }
+                CustomTabBar(currentTab: $currentTab)
+            }
+            .ignoresSafeArea(.keyboard)
+        } // This makes sure Tab Bar is not going up when keyboard is out
     }
 }
 
